@@ -1,0 +1,45 @@
+import React from "react";
+import { useStateMachine } from "little-state-machine";
+<<<<<<< HEAD
+=======
+import { saveAs } from "@progress/kendo-file-saver";
+
+>>>>>>> bd8959947378e8169b325daa5256a41f065b04a8
+import updateAction from "./../common/updateAction";
+
+const Result = (props) => {
+  const { state } = useStateMachine(updateAction);
+  console.log(state.smartWaypointState);
+
+  const submitForm = () => {
+    const blob = new Blob([JSON.stringify(state.ase1Preflight, null, "\t")], {
+      "Content-Type":
+        "application/json" +
+        JSON.stringify(state.smartWaypointState, null, "\t"),
+    });
+<<<<<<< HEAD
+    console.log(blob);
+=======
+
+    const slob =
+      "data:application/json," +
+      JSON.stringify(state.ase1Preflight, null, "\t");
+    saveAs(blob, "data.json");
+    console.log("Listening:", state.ase1Preflight);
+    console.log(slob);
+>>>>>>> bd8959947378e8169b325daa5256a41f065b04a8
+  };
+
+  return (
+    <div className="container">
+      <pre id="results">
+        {JSON.stringify(state.smartWaypointState, null, 2)}
+      </pre>
+      <button type="submit" onClick={submitForm}>
+        Save &#8595;
+      </button>
+    </div>
+  );
+};
+
+export default Result;

@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9c468af0.chunk.css",
+<<<<<<< HEAD
+    "main.js": "./static/js/main.cd14cbef.chunk.js",
+    "main.js.map": "./static/js/main.cd14cbef.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b101e1a2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b101e1a2.js.map",
+    "static/js/2.cf887f3f.chunk.js": "./static/js/2.cf887f3f.chunk.js",
+    "static/js/2.cf887f3f.chunk.js.map": "./static/js/2.cf887f3f.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.9c468af0.chunk.css.map": "./static/css/main.9c468af0.chunk.css.map",
+    "static/js/2.cf887f3f.chunk.js.LICENSE.txt": "./static/js/2.cf887f3f.chunk.js.LICENSE.txt",
+=======
+    "main.js": "./static/js/main.457232e6.chunk.js",
+    "main.js.map": "./static/js/main.457232e6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b101e1a2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b101e1a2.js.map",
+    "static/js/2.85506fba.chunk.js": "./static/js/2.85506fba.chunk.js",
+    "static/js/2.85506fba.chunk.js.map": "./static/js/2.85506fba.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.9c468af0.chunk.css.map": "./static/css/main.9c468af0.chunk.css.map",
+    "static/js/2.85506fba.chunk.js.LICENSE.txt": "./static/js/2.85506fba.chunk.js.LICENSE.txt",
+>>>>>>> bd8959947378e8169b325daa5256a41f065b04a8
+    "static/media/index.css": "./static/media/OutlineCheckCircle.fbbd7c1e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b101e1a2.js",
+<<<<<<< HEAD
+    "static/js/2.cf887f3f.chunk.js",
+    "static/css/main.9c468af0.chunk.css",
+    "static/js/main.cd14cbef.chunk.js"
+=======
+    "static/js/2.85506fba.chunk.js",
+    "static/css/main.9c468af0.chunk.css",
+    "static/js/main.457232e6.chunk.js"
+>>>>>>> bd8959947378e8169b325daa5256a41f065b04a8
+  ]
+}
