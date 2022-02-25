@@ -13,10 +13,7 @@ const Step1 = () => {
   });
 
   const history = useHistory();
-<<<<<<< HEAD
 
-=======
->>>>>>> bd8959947378e8169b325daa5256a41f065b04a8
   const onSubmit = (data) => {
     action(data);
     history.push("/step2");
@@ -63,8 +60,3 @@ const FormContainer = styled.div`
   align-content: flex-start;
   align-items: flex-start;
 `;
-<<<<<<< HEAD
-=======
-
-export default Step1;
->>>>>>> bd8959947378e8169b325daa5256a41f065b04a8

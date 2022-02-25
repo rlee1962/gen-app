@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import jsonStore from "./components/common/jsonsStore";
-=======
->>>>>>> bd8959947378e8169b325daa5256a41f065b04a8
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation } from "./components/sections/navigation";
 import SmoothScroll from "smooth-scroll";

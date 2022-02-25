@@ -3,28 +3,17 @@ import { useHistory } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import FieldArray from "./fieldArray";
 import { useStateMachine } from "little-state-machine";
-<<<<<<< HEAD
 
 import "./../styles/tailwind.css";
 
 import updateAction from "./../common/updateAction";
 
 const Step2 = () => {
-=======
-import "./../styles/tailwind.css";
-import updateAction from "./../common/updateAction";
-
-const Step2 = (props) => {
->>>>>>> bd8959947378e8169b325daa5256a41f065b04a8
   const history = useHistory();
 
   useEffect(() => {
     history.push("/step2");
-<<<<<<< HEAD
   }, [history]);
-=======
-  });
->>>>>>> bd8959947378e8169b325daa5256a41f065b04a8
 
   const { state, action } = useStateMachine(updateAction);
   const {

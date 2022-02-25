@@ -17,11 +17,7 @@ const Pages = () => {
 
   useEffect(() => {
     history.push("/");
-<<<<<<< HEAD
   }, [history]);
-=======
-  });
->>>>>>> bd8959947378e8169b325daa5256a41f065b04a8
 
   return (
     <div id="formfit">
